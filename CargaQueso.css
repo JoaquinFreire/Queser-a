@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2020/01/14/15790119498130.jpg)
+}
+
+input[type=text],
+select {
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color:#ef9b14b2  ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(199, 139, 28);
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f3af42;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+  }
+
+  .volver{
+    width: 11%;
+    background-color:#f3af42;
+    padding: 5px ;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .volver :hover{
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+
+.botoncito {
+    width: 11%;
+    background-color:#f3af42;
+    padding: 5px ;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.botoncito :hover{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+
+  

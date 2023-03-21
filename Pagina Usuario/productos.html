@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/productos.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+</head>
+
+<body>
+
+    <!-- COMIENZA ENCABEZADO/MENÚ -->
+
+    <header class="encabezado">
+        <a href="index.html"><img class="logo" src="img/logo negativo-01.png"></a>
+        <nav class="nav">
+            <ul class="menu">
+                <li class="item"><a href="index.html" class="link">Inicio</a></li>
+                <li class="item"><a href="productos.html" class="link active">Productos</a></li>
+                <li class="item"><a href="nosotros.html" class="link">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- TERMINA ENCABEZADO/MENÚ -->
+
+
+    <!-- COMIENZA SECCIÓN -->
+
+    <h1>Quesos duros</h1>
+    <section class="seccion">
+        <article class="division" id="seccion1">
+        </article>
+
+
+        <article class="division" id="seccion2">
+        </article>
+
+
+        <article class="division" id="seccion3">
+        </article>
+
+
+        <article class="division" id="seccion4">
+        </article>
+    </section>
+
+    <section class="descripcion">
+        <article class="division">
+            <p>Queso cuartirolo</p>
+        </article>
+
+
+        <article class="division">
+            <p>Queso sardo</p>
+        </article>
+
+
+        <article class="division">
+            <p>Queso romano</p>
+        </article>
+
+
+        <article class="division">
+            <p>Queso canestrato</p>
+        </article>
+    </section>
+
+    <h1>Quesos semiduros</h1>
+
+    <section class="seccion2">
+        <article class="division" id="seccion01">
+        </article>
+
+
+        <article class="division" id="seccion02">
+        </article>
+
+
+        <article class="division" id="seccion03">
+        </article>
+
+
+        <article class="division" id="seccion04">
+        </article>
+    </section>
+
+    <section class="descripcion2">
+        <article class="division">
+            <p>Queso gruyerito</p>
+        </article>
+
+
+        <article class="division">
+            <p>Queso mozzarella</p>
+        </article>
+
+
+        <article class="division">
+            <p>Queso fontina</p>
+        </article>
+
+
+        <article class="division">
+            <p>Queso pategrás</p>
+        </article>
+    </section>
+
+    <!-- TERMINA SECCIÓN -->
+
+
+    <!-- COMIENZA FOOTER -->
+
+    <div class="footer">
+
+        <div class="social"><a href="https://www.instagram.com/termolac/" target="_blank"><i class="icon ion-social-instagram"></i></a><a href="https://wa.me/qr/AOGVOWR4A3NZP1" target="_blank"><i class="icon ion-social-whatsapp"></i></a><a href="https://www.facebook.com/TERMOLAC"
+                target="_blank"><i class="icon ion-social-facebook"></i></a></div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="index.html">Inicio</a></li>
+            <li class="list-inline-item"><a href="productos.html">Productos</a></li>
+            <li class="list-inline-item"><a href="nosotros.html">Nosotros</a></li>
+        </ul>
+        <br>
+        <p class="copyright">TERMOLAC © 2021</p>
+
+    </div>
+
+
+    <!-- TERMINA FOOTER -->
+
+
+    <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("menu");
+        var btns = header.getElementsByClassName("item");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                if (current.length > 0) {
+                    current[0].className = current[0].className.replace(" active", "");
+                }
+                this.className += " active";
+            });
+        }
+    </script>
+
+</body>
+
+</html>

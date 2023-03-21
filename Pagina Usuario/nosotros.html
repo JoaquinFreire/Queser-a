@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/nosotros.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Us</title>
+</head>
+
+<body>
+
+    <!-- COMIENZA ENCABEZADO/MENÚ -->
+
+    <header class="encabezado">
+        <a href="index.html"><img class="logo" src="img/logo negativo-01.png"></a>
+        <nav class="nav">
+            <ul class="menu">
+                <li class="item"><a href="index.html" class="link">Inicio</a></li>
+                <li class="item"><a href="productos.html" class="link">Productos</a></li>
+                <li class="item"><a href="nosotros.html" class="link active">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- TERMINA ENCABEZADO/MENÚ -->
+
+    <div class="texto">
+
+        <h3 class="frase">40 años produciendo quesos artesanales de calidad nos respaldan. </h3>
+        <br>
+        <br>
+        <h3>Encontranos en Av Velez Sarsfield 1490</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.3405620417707!2d-64.19661568541743!3d-31.432290004165377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a28a6e1d9a6b%3A0x2495403b23384c97!2zRU5FVCBOwrAx!5e0!3m2!1ses-419!2sar!4v1637939755968!5m2!1ses-419!2sar"
+            width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <br>
+        <br>
+        <h3>Seguinos y contactanos por nuestras redes</h3>
+        <div class="social"><a href="https://www.instagram.com/termolac/" target="_blank"><i class="icon ion-social-instagram"></i></a><a href="https://wa.me/qr/AOGVOWR4A3NZP1" target="_blank"><i class="icon ion-social-whatsapp"></i></a><a href="https://www.facebook.com/TERMOLAC"
+                target="_blank"><i class="icon ion-social-facebook"></i></a></div>
+    </div>
+
+    <!-- COMIENZA FOOTER -->
+
+    <div class="footer">
+
+        <div class="social"><a href="https://www.instagram.com/termolac/" target="_blank"><i class="icon ion-social-instagram"></i></a><a href="https://wa.me/qr/AOGVOWR4A3NZP1" target="_blank"><i class="icon ion-social-whatsapp"></i></a><a href="https://www.facebook.com/TERMOLAC"
+                target="_blank"><i class="icon ion-social-facebook"></i></a></div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="index.html">Inicio</a></li>
+            <li class="list-inline-item"><a href="productos.html">Productos</a></li>
+            <li class="list-inline-item"><a href="nosotros.html">Nosotros</a></li>
+        </ul>
+        <br>
+        <p class="copyright">TERMOLAC © 2021</p>
+
+    </div>
+
+
+    <!-- TERMINA FOOTER -->
+
+
+    <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("menu");
+        var btns = header.getElementsByClassName("item");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                if (current.length > 0) {
+                    current[0].className = current[0].className.replace(" active", "");
+                }
+                this.className += " active";
+            });
+        }
+    </script>
+
+</body>
+
+</html>

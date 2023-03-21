@@ -1,0 +1,145 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    color: #14B76E;
+    margin: 0;
+    background-color: #ffd60a;
+    /*color del fondo*/
+    background-image: url(https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2020/01/14/15790119498130.jpg)
+}
+
+
+/* efectos para el contenedor de pantalla completa */
+
+#contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#login {
+    width: 100%;
+    max-width: 320px;
+    min-width: 320px;
+    padding: 30px 30px 50px 30px;
+    background-color: hsl(30, 100%, 50%, 0.6);
+    /*color de la caja*/
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 130px 130px 130px 130px;
+    /*curvatura en las cuatro esquinas*/
+    box-sizing: border-box;
+    opacity: 1;
+    filter: alpha(opacity=1);
+    /*.imagen:hover {-webkit-transform: rotate(360deg);transform: rotate(360deg);}*/
+}
+
+#login label {
+    display: block;
+    font-family: 'Overpass', sans-serif;
+    font-size: 120%;
+    color: black;
+    /*color de la letra usuario y contra*/
+    margin-top: 15px;
+}
+
+#login input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: rgb(1, 0, 0);
+    /*color al escribir en la casilla*/
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+input[type="password"] {
+    width: 200px;
+    height: 20px;
+    padding-right:50px;
+}
+
+button[class="botoncito"] {
+    margin-left: -50px;
+    height: 25px;
+    width: 50px;
+    background: blue;
+    color: white;
+    border: 0;
+    -webkit-appearance: none;
+    
+}
+
+#login input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: lightgray;
+    /*color de las letras dentro de la casilla*/
+}
+
+#login button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: black;
+    /*color de la letra del boton*/
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    background-color: white;
+    /*color del boton*/
+    margin-top: 10px;
+}
+
+#login button:hover {
+    background-color: lightblue;
+    /*color al pasar el mouse al boton*/
+    color: black;
+}
+
+
+/* formulario de login */
+
+
+/* seccion de la derecha */
+
+
+/* por defecto */
+
+#derecho {
+    /*display: flex;
+    align-items:center;
+    justify-content:center;*/
+    text-align: center;
+    width: 100%;
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+    box-sizing: border-box;
+}
+
+.titulo {
+    font-size: 170%;
+    padding-top: 10%;
+    text-align: center;
+    color: black;
+}

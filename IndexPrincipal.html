@@ -1,0 +1,67 @@
+<html lang="es">
+
+<head>
+    
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="IndexPrincipal.css">
+
+
+    <title>Termolac</title>
+
+</head>
+
+<body>
+
+    <form method="POST" action="indexPrincipal.php">
+
+        <div id="contenedor">
+            <div id="login">
+
+                <label>Usuario:</label>
+                <input type="text" placeholder="ingrese un usuario" name="usuario" required="">
+
+                
+                <form id="form1">
+        <label for="password">Contraseña:</label>
+                <input ID="txtPassword" type="password" placeholder="ingrese contraseña" name="password" class="form-cotrol" required="">
+
+            <button id="Mostrar_contra" type="button" onclick="mostrarPassword()">Ver contraseña</button>
+            
+</form>
+         
+                <button type="submit" title="Ingresar" name="ingresar">Aceptar</button>
+                
+                <div id="derecho">
+                    <div class="titulo">
+                        <img src="logo negativo-01.png" width="200">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+function mostrarPassword(){
+        var cambio = document.getElementById("txtPassword");
+        if(cambio.type == "password"){
+            cambio.type = "text";
+            $('.icon').removeClass('fa fa-eye-slash').addClass('fa fa-eye');
+        }else{
+            cambio.type = "password";
+            $('.icon').removeClass('fa fa-eye').addClass('fa fa-eye-slash');
+        }
+    } 
+    
+    $(document).ready(function () {
+    //CheckBox mostrar contraseña
+    $('#Mostrar_contra').click(function () {
+        $('#Password').attr('type', $(this).is(':checked') ? 'text' : 'password');
+    });
+});
+</script>
+
+</body>
+
+</html>

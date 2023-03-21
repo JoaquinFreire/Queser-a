@@ -1,0 +1,222 @@
+/* ------ ESTILOS ENCABEZADO  ------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: white;
+}
+
+.logo{
+    margin-top: 22px;
+    padding-left: 15px;
+    height: 25px;
+}
+
+.menu{
+    display: flex;
+    margin-top: 20px;
+}
+
+.item{
+    list-style: none;
+    margin-right: 100px;
+}
+
+.active, .item:hover{
+    color: black;
+    border-bottom: 2px solid lightgrey;
+}
+
+.link{
+    text-decoration: none;
+    color: #000814;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ------ ESTILOS SECCIÓN ------ */
+
+.seccion{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.division{
+    height: 250px;
+    width: 250px;
+}
+
+
+#seccion1{
+    background: url(../img/cremoso.png) no-repeat;
+    background-size:cover;
+}
+
+#seccion2{
+    background: url(../img/sardo.png) no-repeat;
+    background-size:cover;
+}
+
+#seccion3{
+    background: url(../img/romano.png) no-repeat;
+    background-size:cover;
+}
+
+#seccion4{
+    background: url(../img/canestrato.png) no-repeat;
+    background-size: cover;
+}
+
+.descripcion{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.descripcion .division{
+    text-align: center;
+    font-weight: 800;
+}
+
+/*----------------------------------------------*/
+
+.seccion2{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.seccion2 .division{
+    margin-top: 15px;
+    height: 250px;
+    width: 250px;
+}
+
+#seccion01{
+    background: url(../img/gruyerito.png) no-repeat;
+    background-size:cover;
+}
+
+#seccion02{
+    background: url(../img/mozzarella.png) no-repeat;
+    background-size:cover;
+}
+
+#seccion03{
+    background: url(../img/fontina.png) no-repeat;
+    background-size:cover;
+}
+
+#seccion04{
+    background: url(../img/pategras.png) no-repeat;
+    background-size: cover;
+}
+
+.descripcion2{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.descripcion2 .division{
+    text-align: center;
+    font-weight: 800;
+}
+
+
+/* ------ ESTILOS FOOTER ------ */
+.footer {
+    padding:40px 0;
+    background-color:#FFD60A;
+    color:white;
+    font-weight: bold;
+  }
+  
+  .footer ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer li {
+    padding:0 10px;
+  }
+  
+  .footer ul a {
+    color:inherit;
+    text-decoration:none;
+
+  }
+  
+  .footer .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid rgb(255, 249, 249);
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:rgb(0, 0, 0);
+    margin-bottom:0;
+  }
+  
+  .list-inline .list-inline-item{
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.list-inline > a:hover {
+    opacity:0.9;
+    color: red;
+  }

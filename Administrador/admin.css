@@ -1,0 +1,60 @@
+body {
+    background-image: url(https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2020/01/14/15790119498130.jpg)
+}
+
+h1 {
+    border-style: double;
+    -webkit-text-stroke: 0.5px rgb(225, 162, 104);
+    font-size: 60px;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+h3 {
+    font-size: 40px;
+    -webkit-text-stroke: 0.5px rgb(170, 117, 39);
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.menu {
+    width: 80%;
+    /* Set a width if you like */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    padding-left: 8rem;
+}
+
+.menu a {
+    -webkit-text-stroke: 1px rgb(80, 57, 23);
+    background-color: #f5aa3257;
+    /* Grey background color */
+    color: white;
+    /* Black text color */
+    display: block;
+    /* Make the links appear below each other */
+    padding: 12px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+.menu a:hover {
+    background-color: #ef9b14b2;
+    transition-duration: 0.5s;
+}
+
+.menu a.active {
+    background-color: rgb(190 141 49 / 67%);
+    color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-size: 45px;
+}
